@@ -22,4 +22,21 @@ end
 return {
 	TestEvent = getRemoteEvent("TestEvent"),
 	InteractRequest = getRemoteEvent("InteractRequest"),
+	Characters = getRemoteEvent("Characters"),
+	CamShake = getRemoteEvent("CamShake"),
+	Lighting = getRemoteEvent("Lighting"),
+	Cutsense = getRemoteEvent("Cutsense"),
+	-- Character Remotes
+	Deku = getRemoteEvent("Deku"),
+	Denji = getRemoteEvent("Denji"),
+	Gojo = getRemoteEvent("Gojo"),
+	Goku = getRemoteEvent("Goku"),
+	Gon = getRemoteEvent("Gon"),
+	Ichigo = getRemoteEvent("Ichigo"),
+	Luffy = getRemoteEvent("Luffy"),
+	Luffy2 = getRemoteEvent("Luffy2"),
+	Reigen = getRemoteEvent("Reigen"),
+	Rengoku = getRemoteEvent("Rengoku"),
+	Yuji = getRemoteEvent("Yuji"),
+	Yuta = getRemoteEvent("Yuta"),
 }

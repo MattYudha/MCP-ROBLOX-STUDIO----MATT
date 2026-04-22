@@ -4,6 +4,9 @@ local Remotes = require(ReplicatedStorage.Shared.Remotes.Remotes)
 
 local MainService = {}
 
+local BridgeNet = require(ReplicatedStorage:WaitForChild("Packages"):WaitForChild("BridgeNet2"))
+local ServerBridge = BridgeNet.ServerBridge("Replicator")
+
 function MainService.Start()
 	print("MainService started")
 
